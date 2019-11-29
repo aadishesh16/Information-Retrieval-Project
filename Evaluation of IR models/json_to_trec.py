@@ -10,7 +10,6 @@ import urllib
 from langdetect import detect
 
 models = ['BM25','DFR','LM']
-# change the url according to your own corename and query
 for m in  models:
 	count=1
 	with open('test_queries.txt',encoding="utf-8") as f:
